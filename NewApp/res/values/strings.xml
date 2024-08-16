@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_reg">UserRegActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_userregister">Userregister</string>
+    <string name="title_activity_guestregister">Guestregister</string>
+    <string name="title_activity_adminpage">Adminpage</string>
+    <string name="title_activity_guesthomepage">Guesthomepage</string>
+    <string name="title_activity_userhomepage">Userhomepage</string>
+    <string name="title_activity_venueblock">Venueblock</string>
+    <string name="title_activity_adminhomepage">Adminhomepage</string>
+    <string name="title_activity_addevent">Addevent</string>
+    <string name="title_activity_event">Event</string>
+    <string name="title_activity_viewevents">Viewevents</string>
+    <string name="title_activity_joinevents">Joinevents</string>
+    <string name="title_activity_deleteuser">Deleteuser</string>
+    <string name="title_activity_deleteevents">Deleteevents</string>
+
+</resources>

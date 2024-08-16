@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.newapp.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.newapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.newapp.UserRegActivity"
+            android:label="@string/title_activity_user_reg" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.LogActivity"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Userregister"
+            android:label="@string/title_activity_userregister" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Guestregister"
+            android:label="@string/title_activity_guestregister" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Adminpage"
+            android:label="@string/title_activity_adminpage" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Guesthomepage"
+            android:label="@string/title_activity_guesthomepage" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Userhomepage"
+            android:label="@string/title_activity_userhomepage" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Venueblock"
+            android:label="@string/title_activity_venueblock" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Adminhomepage"
+            android:label="@string/title_activity_adminhomepage" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Addevent"
+            android:label="@string/title_activity_addevent" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Event"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Viewevents"
+            android:label="@string/title_activity_viewevents" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Joinevents"
+            android:label="@string/title_activity_joinevents" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Deleteuser"
+            android:label="@string/title_activity_deleteuser" >
+        </activity>
+        <activity
+            android:name="com.example.newapp.Deleteevents"
+            android:label="@string/title_activity_deleteevents" >
+        </activity>
+    </application>
+
+</manifest>
